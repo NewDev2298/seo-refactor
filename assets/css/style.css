@@ -21,7 +21,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #dfb611;
+    color: #bcbbb5;
 }
 
 .header nav {
@@ -32,10 +32,6 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
 .header nav ul li {
     display: inline;
     margin-left: 25px;
@@ -44,12 +40,14 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+
 }
 
+/* Added feature that underlines text in header when link is selected. */
 a:hover {
     text-decoration: underline;
 }
-
+/* ---- */
 p {
     font-size: 16px;
 }
@@ -90,11 +88,12 @@ p {
     background-color: #2589bd;
 }
 
+/* Deleted extra two lines and condensed to avoid repeated code. */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* ---- */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -105,8 +104,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* ---- */
 
-.search-engine-optimization {
+/* Combined 3 class tags with identical styling into one line to condense code. */
+.search-engine-optimization,.online-reputation-management,.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -114,51 +115,20 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* ---- */
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Condensed code to remove clutter. Code was previously repeated 3 times. */
+.content img {
     max-height: 200px;
 }
+/* ---- */
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Condensed code to remove clutter.  */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* ---- */
 
 .footer {
     padding: 30px;
